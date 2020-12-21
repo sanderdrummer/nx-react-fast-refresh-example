@@ -2,7 +2,6 @@ import React from "react";
 
 import styled from "styled-components";
 
-import { UiLib } from "@fast-refresh/ui-lib";
 import { SomeFeature } from "@fast-refresh/some-feature";
 
 const StyledApp = styled.div`
@@ -15,8 +14,6 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      hi there
-      <UiLib />
       <SomeFeature />
     </StyledApp>
   );

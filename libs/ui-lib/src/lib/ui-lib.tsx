@@ -2,19 +2,18 @@ import React from "react";
 
 import styled from "styled-components";
 
-/* eslint-disable-next-line */
-export interface UiLibProps {}
-
-const StyledUiLib = styled.div`
-  color: pink;
-`;
-
-export function UiLib(props: UiLibProps) {
-  return (
-    <StyledUiLib>
-      <h1>Welcome to ui-lib!</h1>
-    </StyledUiLib>
-  );
+export interface UiLibProps {
+  children: React.ReactNode;
 }
 
-export default UiLib;
+export function AwesomeToggle({ children }: UiLibProps) {
+  const [show, setShow] = React.useState(false);
+  return (
+    <>
+      <button type="button" onClick={() => setShow((show) => !show)}>
+        press me
+      </button>
+      {show && <div>{children}</div>}
+    </>
+  );
+}

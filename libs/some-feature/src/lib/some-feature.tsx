@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
-import { UiLib } from "@fast-refresh/ui-lib";
+import { AwesomeToggle } from "@fast-refresh/ui-lib";
 
 /* eslint-disable-next-line */
 export interface SomeFeatureProps {}
@@ -15,7 +15,7 @@ export function SomeFeature(props: SomeFeatureProps) {
   return (
     <StyledSomeFeature>
       <h1>Welcome to some-feature!</h1>
-      <UiLib />
+      <AwesomeToggle>this is a awesome feature</AwesomeToggle>
     </StyledSomeFeature>
   );
 }
