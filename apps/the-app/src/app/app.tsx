@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { UiLib } from "@fast-refresh/ui-lib";
+import { SomeFeature } from "@fast-refresh/some-feature";
 
 const StyledApp = styled.div`
   font-family: sans-serif;
@@ -16,6 +17,7 @@ export function App() {
     <StyledApp>
       hi there
       <UiLib />
+      <SomeFeature />
     </StyledApp>
   );
 }

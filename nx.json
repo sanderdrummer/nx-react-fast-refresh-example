@@ -32,6 +32,9 @@
     },
     "ui-lib": {
       "tags": []
+    },
+    "some-feature": {
+      "tags": []
     }
   }
 }

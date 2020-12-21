@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fast-refresh/ui-lib": ["libs/ui-lib/src/index.ts"]
+      "@fast-refresh/ui-lib": ["libs/ui-lib/src/index.ts"],
+      "@fast-refresh/some-feature": ["libs/some-feature/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
