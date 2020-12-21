@@ -29,6 +29,9 @@
     "the-app-e2e": {
       "tags": [],
       "implicitDependencies": ["the-app"]
+    },
+    "ui-lib": {
+      "tags": []
     }
   }
 }
